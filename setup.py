@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import codecs
 import os
-import sys
+import sys 
 from shutil import rmtree
 
 from setuptools import find_packages, setup, Command
