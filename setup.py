@@ -15,7 +15,7 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as f:
 about = {}
 
 with open(os.path.join(here, "pipenv", "__version__.py")) as f:
-    exec(f.read(), about)
+    exec(f.read(), about) 
 
 if sys.argv[-1] == "publish":
     os.system("python setup.py sdist bdist_wheel upload")
